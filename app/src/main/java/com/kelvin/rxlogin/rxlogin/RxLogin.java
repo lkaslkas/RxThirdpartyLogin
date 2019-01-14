@@ -19,7 +19,6 @@ public class RxLogin implements UMAuthListener {
     private RxLoginResult mRxLoginResult;
     static UMAuthListener STATIC_LISTENER;
     private PublishSubject<RxLoginResult> mEmitter;
-
     private RxLogin(Activity activity){
         this.activity = activity;
         STATIC_LISTENER = this;
